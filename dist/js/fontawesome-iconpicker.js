@@ -1,9 +1,5 @@
 (function(a) {
-    if (typeof define === "function" && define.amd) {
-        define([ "jquery" ], a);
-    } else {
-        a(jQuery);
-    }
+    a(jQuery);
 })(function(a) {
     a.ui = a.ui || {};
     var b = a.ui.version = "1.12.1";
@@ -354,9 +350,7 @@
 
 (function(a) {
     "use strict";
-    if (typeof define === "function" && define.amd) {
-        define([ "jquery" ], a);
-    } else if (window.jQuery && !window.jQuery.fn.iconpicker) {
+    if (window.jQuery && !window.jQuery.fn.iconpicker) {
         a(window.jQuery);
     }
 })(function(a) {

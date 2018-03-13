@@ -33,7 +33,7 @@
   max-width: none;
   padding: 1px;
   text-align: left;
-  width: 216px;
+  width: 220px;
   background: #f7f7f7;
   z-index: 9;
 }
@@ -59,7 +59,9 @@
 .iconpicker-popover.popover.left,
 .iconpicker-popover.popover.leftBottom,
 .iconpicker-popover.popover.leftTop {
-  margin-left: -10px;
+  margin-left: -158px;
+  margin-top: -20px;
+  min-width: 220px;
 }
 .iconpicker-popover.popover.inline {
   margin: 0 0 12px 0;
@@ -92,8 +94,12 @@
   border-bottom: 1px solid #ebebeb;
   background-color: #f7f7f7;
 }
+.iconpicker-popover.popover .popover-title input[type=search].iconpicker-search:hover {
+  background-color: white;
+}
 .iconpicker-popover.popover .popover-title input[type=search].iconpicker-search {
   margin: 0 0 2px 0;
+  background-color: white;
 }
 .iconpicker-popover.popover .popover-title-text ~ input[type=search].iconpicker-search {
   margin-top: 12px;
@@ -120,7 +126,9 @@
   clear: both;
 }
 .iconpicker-popover .popover-footer .iconpicker-btn {
-  margin-left: 10px;
+  margin-left: 37px;
+  padding: 5px;
+
 }
 .iconpicker-popover .popover-footer input[type=search].iconpicker-search {
   /*width:auto;
@@ -322,8 +330,7 @@
 }
 .iconpicker .iconpicker-item.iconpicker-selected {
   box-shadow: none;
-  color: #fff;
-  background: #000;
+  background-color: #5fb9a3;
 }
 .iconpicker-component {
   cursor: pointer;
